@@ -1,0 +1,22 @@
+{
+  "name": "webjump257/criando_tests_php",
+  "description": "Criando Testes com o PHP | Primeiro contato",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Webjump257\\CriandoTestsPhp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Lucas Duarte",
+      "email": "lucas.goes@webjump.com.br"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit tests/"
+  }
+}
